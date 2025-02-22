@@ -19,7 +19,7 @@ class PostSeeder extends Seeder
             [
                 'title' => "Demo Post Title One",
                 'slug' => 'demo-post-one',
-                'excerpt' =>  $faker->paragraph(10),
+                'excerpt' =>  $faker->paragraph(5),
                 'content'=>$faker->paragraph(20),
                 'meta_tags' => json_encode(['test','demo']),
                 'meta_description' => 'Meta Description',
@@ -32,7 +32,7 @@ class PostSeeder extends Seeder
             [
                 'title' => "Demo Post Title Two",
                 'slug' => 'demo-post-two',
-                'excerpt' =>  $faker->paragraph(10),
+                'excerpt' =>  $faker->paragraph(5),
                 'content'=>$faker->paragraph(20),
                 'meta_tags' => json_encode(['test','demo']),
                 'meta_description' => 'Meta Description',

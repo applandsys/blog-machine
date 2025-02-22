@@ -33,7 +33,11 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
-        }
+        },
+        "files": [
+            "app/Helpers/navigation.php",
+            "app/Helpers/posts.php"
+        ]
     },
     "scripts": {
         "post-autoload-dump": [

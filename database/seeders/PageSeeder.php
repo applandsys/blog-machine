@@ -18,8 +18,8 @@ class PageSeeder extends Seeder
             [
                 'title' => "Demo Page Title One",
                 'slug' => 'demo-post-one',
-                'excerpt' =>  $faker->paragraph(10),
-                'content'=>$faker->paragraph(20),
+                'excerpt' =>  $faker->paragraph(5),
+                'content'=> $faker->paragraph(20),
                 'meta_tags' => json_encode(['test','demo']),
                 'meta_description' => 'Meta Description',
                 'status' => 'published',
@@ -31,7 +31,7 @@ class PageSeeder extends Seeder
             [
                 'title' => "Demo Page Title Two",
                 'slug' => 'demo-post-two',
-                'excerpt' =>  $faker->paragraph(10),
+                'excerpt' =>  $faker->paragraph(5),
                 'content'=>$faker->paragraph(20),
                 'meta_tags' => json_encode(['test','demo']),
                 'meta_description' => 'Meta Description',

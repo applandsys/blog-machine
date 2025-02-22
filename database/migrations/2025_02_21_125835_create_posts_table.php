@@ -18,7 +18,7 @@ return new class extends Migration
             $table->longText('excerpt')->nullable();
             $table->longText('content')->nullable();
             $table->json('meta_tags')->nullable();
-            $table->json('meta_description')->nullable();
+            $table->longText('meta_description')->nullable();
             $table->enum('status',['published','draft','trash'])->default('draft');
             $table->enum('discussion',['open','close','restricted'])->default('open');
             $table->smallInteger('revision')->default(0);
