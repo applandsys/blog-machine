@@ -9,9 +9,9 @@ if (!function_exists('getPostsPaginated')) {
 }
 
 if (!function_exists('getPostsLimit')) {
-    function getPostsLimit($limit=10)
+    function getPostsLimit($offset=0,$limit=10)
     {
-        return Post::take($limit)->get();
+        return Post::skip($offset)->take($limit)->get();
     }
 }
 

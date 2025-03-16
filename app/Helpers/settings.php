@@ -5,5 +5,10 @@ if (!function_exists('siteSetting')) {
     {
         return \App\Models\SiteSetting::first();
     }
+
+    function socialLinks()
+    {
+        return \App\Models\SocialLink::all();
+    }
 }
 
