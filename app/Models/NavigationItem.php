@@ -16,7 +16,7 @@ class NavigationItem extends Model
             case 'post':
                 return $this->belongsTo(Post::class, 'link_id');
             case 'category':
-                return $this->belongsTo(Category::class, 'link_id');
+                return $this->belongsTo(Category::class, 'id');
             default:
                 return null;
         }

@@ -5,7 +5,10 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [FrontController::class,'homepage'])->name('front.homepage');
-Route::get('/detail/{id}/{slug}', [FrontController::class,'postDetail'])->name('front.post-detail');
+Route::get('/detail/{id}/{slug}', [FrontController::class,'postDetail'])->name('front.post');
+
+Route::get('/category/{id}/{slug}', [FrontController::class,'category'])->name('front.category');
+Route::get('/page/{id}/{slug}', [FrontController::class,'page'])->name('front.page');
 
 /*
 

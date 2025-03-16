@@ -16,10 +16,13 @@ return new class extends Migration
             $table->string('site_name');
             $table->string('site_logo');
             $table->string('site_favicon');
+            $table->text('logo_light')->nullable();
+            $table->text('logo_dark')->nullable();
             $table->string('site_email')->nullable();
             $table->string('site_phone')->nullable();
             $table->text('site_address')->nullable();
             $table->text('site_description')->nullable();
+            $table->text('site_meta_tags')->nullable();
             $table->timestamps();
         });
     }

@@ -9,7 +9,7 @@
     <meta name="author" content="" />
 
     <meta name='keywords' content='your, tags'>
-    <meta name='subject' content='your website's subject'>
+    <meta name='subject' content='your website s subject'>
 
     <meta name='robots' content='index,follow'>
     <meta name='revised' content='Sunday, July 18th, 2010, 5:15 pm'>
