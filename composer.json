@@ -36,7 +36,9 @@
         },
         "files": [
             "app/Helpers/navigation.php",
-            "app/Helpers/posts.php"
+            "app/Helpers/posts.php",
+            "app/Helpers/settings.php",
+            "app/Helpers/meta.php"
         ]
     },
     "scripts": {

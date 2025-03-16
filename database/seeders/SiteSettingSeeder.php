@@ -15,7 +15,7 @@ class SiteSettingSeeder extends Seeder
     {
         DB::table('site_settings')->insert(
             [
-                'site_name' => "My Clean Blog",
+                'site_name' => "My Dream Blog",
                 'site_logo' => 'logo.png',
                 'site_favicon'=>'favicon.png',
                 'site_email'=>'phenxlab@gmail.com',
